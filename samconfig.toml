@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "dev-car-okta-serverless"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1d2shd05x8dpd"
+s3_prefix = "dev-car-okta-serverless"
+region = "us-east-2"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
